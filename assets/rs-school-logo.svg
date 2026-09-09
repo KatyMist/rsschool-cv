@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="RS School logo">
+  <circle cx="32" cy="32" r="30" fill="#f2a541"/>
+  <text x="32" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#123c3c">RS</text>
+  <text x="32" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#123c3c">SCHOOL</text>
+</svg>
