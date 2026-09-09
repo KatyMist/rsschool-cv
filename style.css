@@ -203,7 +203,8 @@ a:focus {
 
 .section-tag {
   font-family: var(--font-sans);
-  display: inline-block;
+  display: block;
+  width: fit-content;
   background: var(--color-accent);
   color: #fffdf7;
   font-size: 0.75rem;
@@ -212,7 +213,11 @@ a:focus {
   text-transform: uppercase;
   padding: 6px 16px;
   border-radius: 999px;
-  margin: 4px 0 16px;
+  margin: 20px 0 16px;
+}
+
+.section-tag:first-child {
+  margin-top: 4px;
 }
 
 .card p {
@@ -294,10 +299,15 @@ code {
 
 .site-footer p {
   margin: 0;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
 }
 
 .site-footer a {
   color: var(--color-accent-dark);
+  display: inline-flex;
+  align-items: center;
 }
 
 .rs-link {
@@ -309,6 +319,7 @@ code {
 .rs-link img {
   display: block;
   border-radius: 50%;
+  vertical-align: middle;
 }
 
 @media (max-width: 820px) {
