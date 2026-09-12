@@ -5,17 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ekaterina Tumanova — CV</title>
 <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
 <body>
-<div class="page">
 
-<header class="sidebar">
-<img class="sidebar__photo" src="assets/avatar.jpg" alt="Portrait of Ekaterina Tumanova" width="520" height="781">
-<h1 class="sidebar__name">Ekaterina Tumanova</h1>
-<p class="sidebar__role">Aspiring Frontend Developer</p>
+<nav class="site-nav" aria-label="Section navigation">
+<div class="site-nav__inner">
+<button type="button" class="site-nav__toggle" id="navToggle" aria-expanded="false" aria-controls="siteNavList">
+<span class="site-nav__toggle-bar"></span>
+<span class="site-nav__toggle-bar"></span>
+<span class="site-nav__toggle-bar"></span>
+<span class="visually-hidden">Menu</span>
+</button>
 
-<nav class="sidebar__nav" aria-label="Section navigation">
-<ul>
+<ul class="site-nav__list" id="siteNavList">
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#code">Code Example</a></li>
@@ -23,15 +26,32 @@
 <li><a href="#education">Education</a></li>
 <li><a href="#english">English</a></li>
 </ul>
+</div>
 </nav>
 
-<ul class="sidebar__contacts">
+<header class="profile-bar">
+<div class="profile-bar__inner">
+<img class="profile-bar__photo" src="assets/avatar.jpg" alt="Portrait of Ekaterina Tumanova" width="200" height="200">
+
+<div class="profile-bar__id">
+<h1 class="profile-bar__name">Ekaterina Tumanova</h1>
+<p class="profile-bar__role">Frontend Developer</p>
+</div>
+
+<ul class="profile-bar__contacts">
 <li><span class="contact-label">Email</span><a href="mailto:tumanova.ekaterina73@gmail.com">tumanova.ekaterina73@gmail.com</a></li>
 <li><span class="contact-label">GitHub</span><a href="https://github.com/KatyMist" target="_blank" rel="noopener noreferrer">github.com/KatyMist</a></li>
 <li><span class="contact-label">Telegram</span><a href="https://t.me/KatyMist" target="_blank" rel="noopener noreferrer">t.me/KatyMist</a></li>
 <li><span class="contact-label">Discord</span><span>ekaterina08526</span></li>
 </ul>
+</div>
 </header>
+
+<div class="wisteria-garland" aria-hidden="true">
+<img src="assets/wisteria.png" alt="">
+</div>
+
+<div class="page">
 
 <main class="content">
 
@@ -171,7 +191,7 @@
 
 <section id="english" class="card">
 <h2>English Proficiency</h2>
-<p>A2 (Elementary). I am actively improving my English through everyday work with English-language technical documentation, video tutorials and developer communities such as Codewars and GitHub.</p>
+<p>Level A2 (Elementary). I am actively improving my English by working daily with English-language technical documentation, video tutorials, and developer communities.</p>
 </section>
 
 </main>
