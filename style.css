@@ -322,6 +322,7 @@ code {
   vertical-align: middle;
 }
 
+
 .project__links {
   display: flex;
   flex-wrap: wrap;
@@ -398,3 +399,5 @@ code {
     height: 225px;
   }
 }
+
+
