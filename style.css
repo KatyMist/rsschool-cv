@@ -322,48 +322,6 @@ code {
   vertical-align: middle;
 }
 
-.project__links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 12px;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 8px 18px;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  border: 1px solid var(--color-accent);
-  color: var(--color-accent-dark);
-  background: var(--color-accent-soft);
-  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
-}
-
-.btn:hover,
-.btn:focus {
-  background: var(--color-accent);
-  color: #fffdf7;
-  text-decoration: none;
-  transform: translateY(-2px);
-}
-
-.btn--code {
-  border-color: var(--color-accent-dark);
-  color: var(--color-accent-dark);
-  background: transparent;
-}
-
-.btn--code:hover,
-.btn--code:focus {
-  background: var(--color-accent-dark);
-  color: #fffdf7;
-}
-
 @media (max-width: 820px) {
   .page {
     flex-direction: column;
